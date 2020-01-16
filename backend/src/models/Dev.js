@@ -13,4 +13,4 @@ const DevSchema = mongoose.Schema({
     }
 });
 
-module.exports = mongoose.Model('Dev', DevSchema);
+module.exports = mongoose.model('Dev', DevSchema);
